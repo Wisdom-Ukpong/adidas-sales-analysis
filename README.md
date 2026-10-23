@@ -120,8 +120,7 @@ Microsoft Excel (formulas, pivot-style summaries, charts), PowerPoint, Word.
 
 BeTechified Data Analytics Capstone Group
 
-- [Your name](https://github.com/your-username)
-- [Teammate name]
+- [](https://github.com/Wisdom-Ukpong)
 
 ## Acknowledgements
 
