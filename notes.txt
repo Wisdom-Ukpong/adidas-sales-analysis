@@ -1,0 +1,9 @@
+Notes, assumptions and data quality
+
+Cleaning: removed blank header rows/columns; no missing values and no duplicate rows were found.
+Added columns: Category (Apparel / Street Footwear / Athletic Footwear, taken from the Product name), Year, Quarter, Month.
+4 rows have 0 units sold (and $0 sales). They were kept; they do not affect totals.
+Retailer ID is NOT unique to a retailer (e.g. 1185732 appears under every retailer), so analysis uses the Retailer name, not the ID.
+The dataset has no Accessories category and no target/forecast column, so brief question 7 (vs projected targets) cannot be answered from this data; a proxy (2021 vs 2020) is shown instead.
+COVERAGE WARNING: Amazon has no 2020 records, Kohl's has only 8 in 2020, and Online has 530 records in 2020 vs 4,359 in 2021. 2021 growth rates therefore reflect expanded data coverage as well as real growth.
+Operating Margin = Operating Profit / Total Sales, recalculated at each level (not an average of row margins).
